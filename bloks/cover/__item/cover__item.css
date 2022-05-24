@@ -1,0 +1,39 @@
+.cover__item {
+    background-image: url(../../../images/cover-railroad.jpg);
+    height: calc((100vw - 48px*2)/1.6);
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    cursor: url('../../../images/cursor.svg'), pointer;
+}
+
+@media screen and (max-width:1024px) {
+    .cover__item {
+        height: calc(100vw/1.6);
+    }
+    
+}
+
+.cover__item::before {
+    content: "";
+    position:absolute;
+    background: #2A2C2F;
+    opacity: .3;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    transition: 0.2s;
+    z-index: -1;
+}
+
+.cover__item:hover::before {
+    opacity:.8;
+}

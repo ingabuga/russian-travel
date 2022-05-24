@@ -1,0 +1,40 @@
+.footer__link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.125;
+    margin-right: 15px;
+    cursor: url('./images/cursor.svg'), pointer;
+}
+
+@media screen and (max-width:768px) {
+    .footer__link {
+        margin-right: 14px;
+    }
+    
+}
+
+@media screen and (max-width:750px) {
+    .footer__link {
+        margin: 0;
+        padding-bottom: 32px;
+        font-size: 24px;
+        line-height: 1;
+
+    }
+    
+}
+
+
+.footer__link:last-of-type {
+    margin-right: 0;
+}
+
+@media screen and (max-width:750px) {
+    .footer__link:last-of-type {
+        padding-bottom: 45px;
+
+    }
+    
+}

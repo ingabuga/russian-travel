@@ -1,0 +1,16 @@
+@media screen and (max-width:750px) {
+    .footer__column {
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    .footer__column {
+        align-items: flex-start;
+    }
+    
+}

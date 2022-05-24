@@ -1,0 +1,14 @@
+.places__link-active {
+    font-size: 18px;
+    color:#ffffff;
+    letter-spacing:normal;
+    text-transform: none;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+    padding-top: 1px;
+    cursor: url('../../../images/cursor.svg'), pointer;
+}
+
+.places__link-active:hover {
+    color: rgba(255, 255, 255, 0.8);
+}

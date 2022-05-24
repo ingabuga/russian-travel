@@ -1,0 +1,10 @@
+.header__lang-link {
+    margin-left: 11px;
+    color: white;
+    text-decoration: none;
+    cursor: url('../../../images/cursor.svg'), pointer;
+}
+
+.header__lang-link:first-child {
+    margin-left: 0px;
+}

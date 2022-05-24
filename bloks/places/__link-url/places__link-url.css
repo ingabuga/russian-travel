@@ -1,0 +1,11 @@
+.places__link-url {
+    grid-area: link;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    text-decoration: none;
+    text-align: left;
+    margin: 0;
+    padding: 0 0 12px 0;
+}

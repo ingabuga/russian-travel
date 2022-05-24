@@ -1,0 +1,28 @@
+.lead {
+    display: block;
+    color: white;
+    width:calc(100% - 148px*2);
+    margin: 0 auto;
+    padding: 28px 0;
+}
+
+@media screen and (max-width:1024px) {
+    .lead {
+        width:calc(100% - 48px*2);
+        padding: 20px 0;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .lead {
+        width:100%;
+        padding: 20px 0;
+    }  
+}
+
+@media screen and (max-width:320px) {
+    .lead {
+        padding: 32px 0;
+    }  
+}

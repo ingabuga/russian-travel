@@ -29,7 +29,7 @@
     
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:625px) {
     .places__item {
         grid-template-columns: 1fr;
         grid-template-rows: auto;

@@ -25,3 +25,6 @@
 <li>Анимация изображений по наведению</li>
 <li>JavaScript-события</li>
 </ul>
+
+## Ссылка на проект
+https://ingabuga.github.io/russian-travel/

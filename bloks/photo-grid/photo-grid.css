@@ -4,7 +4,6 @@
     grid-auto-rows: 1fr;
     column-gap: 16px;
     row-gap: 16px;
-    row-gap: 16px;
     max-width: calc(100% - 48px*2);
     margin: auto;
     padding: 28px 0;

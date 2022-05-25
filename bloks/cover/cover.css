@@ -1,12 +1,12 @@
 .cover {
     padding: 28px 0;
-    width: calc(100% - 48px*2);
+    max-width: calc(100% - 48px*2);
     margin: 0 auto;
 }
 
 @media screen and (max-width:1024px) {
     .cover {
-        width:100%;
+        max-width:100%;
         padding: 25px 0;
     }
     

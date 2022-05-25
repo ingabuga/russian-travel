@@ -4,7 +4,7 @@
 
 @media screen and (max-width:320px) {
     .places__text {
-        width: calc(100vw - 16px*2);
+        max-width: calc(100vw - 16px*2);
         margin: 0 auto;
     }
     

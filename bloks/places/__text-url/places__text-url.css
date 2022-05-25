@@ -5,7 +5,7 @@
 
 @media screen and (max-width:320px) {
     .places__text-url {
-        width: calc(100% - 16px*2);
+        max-width: calc(100% - 16px*2);
         margin: 0 auto;
     }
 }

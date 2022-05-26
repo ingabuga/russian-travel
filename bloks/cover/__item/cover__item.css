@@ -1,6 +1,7 @@
 .cover__item {
     background-image: url(../../../images/cover-railroad.jpg);
     height: calc((100vw - 48px*2)/1.6);
+    max-height: 740px;
     text-decoration: none;
     position: relative;
     display: flex;

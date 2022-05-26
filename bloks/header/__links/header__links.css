@@ -1,13 +1,4 @@
 .header__links {
-    font-size: 24px;
-    line-height: 1.6;
     align-self:flex-end;
 }
 
-@media screen and (max-width:320px) {
-    .header__links {
-        font-size: 18px;
-        line-height: 1.6;
-    }
-    
-}

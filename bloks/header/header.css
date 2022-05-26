@@ -1,6 +1,5 @@
 
 .header {
-    color: white;
     max-width: calc(100% - 48px*2);
     display: flex;
     margin: 0 auto;

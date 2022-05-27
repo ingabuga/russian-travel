@@ -7,7 +7,7 @@
 @media screen and (max-width:1024px) {
     .cover {
         max-width:100%;
-        padding: 25px 0;
+        padding: 26px 0;
     }
     
 }
@@ -15,6 +15,13 @@
 @media screen and (max-width:768px) {
     .cover {
         padding: 20px 0;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    .cover {
+        padding: 30px 0;
     }
     
 }
